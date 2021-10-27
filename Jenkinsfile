@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './test'
+                sh './hello'
             }
         }
     }
