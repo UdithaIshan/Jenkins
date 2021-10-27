@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                    cd /build/
+                    cd build/
                     cmake ../
                     make
                 '''
